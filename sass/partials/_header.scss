@@ -1,0 +1,78 @@
+header.menu_nivel {
+
+    .menu .nav_principal, 
+    .menu .nav_principal nav .nav-items, 
+    .menu .nav_principal nav .nav-items ul li .nav-link, 
+    .nav-button {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .menu {
+        .nav_principal { 
+            height: 80px; 
+            nav {
+                margin: 0 auto;
+                height: 100%;
+                width: 100%;
+                .nav-items {
+                    height: 100%;
+                    ul {
+                        overflow: hidden;
+                        list-style: none;
+                        li {
+                            font-size: 1.25vw;
+                            line-height: 28px;
+                            height: auto;
+                            display: inline-block;
+                            .nav-link {
+                                padding: 0px 12px;
+                                height: 100%;
+                                color: $colorSec;
+                                font-weight: 400;
+                                &:hover {
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                    ul, .nav-button{
+                        margin: 0;
+                    }
+                }
+            }
+            .menu_mobile {
+                .logo_link{
+                    display: flex;
+                    align-items: center;
+                    justify-content: left;
+                    text-decoration: none;
+                    span{
+                        color: $colorSec;
+                        font-weight: 600;
+                        font-size: 2.25vw;
+                        line-height: 28px;
+                        margin-left: 8px;
+                    }
+                }
+                .menu_burger { 
+                    display: none; 
+                    .line {
+                        width: 26px;
+                        height: 3px;
+                        background-color: $colorSec;
+                        display: block;
+                        margin: 6px auto;
+                        transition: all 0.3s ease-in-out;
+                        border-radius: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
+    

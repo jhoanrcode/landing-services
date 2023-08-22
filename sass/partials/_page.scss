@@ -1,0 +1,260 @@
+section.description,
+section.products,
+section.strategies,
+section.grafica {
+    margin-bottom: 150px;
+}
+
+section.description {
+	h2{
+        font-size: 39px;
+        line-height: 7.65vh;
+	}
+    h3{
+        font-size: 32px;
+        line-height: 52px;
+    }
+    p{ 
+        font-size: 18px;
+        line-height: 28px;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        li{
+            padding: 15px 65px;
+            min-height: 50px;
+            &:first-child{
+                background:url('../images/bullet1.png') no-repeat 0 50%;
+            }
+            &:first-child + li{
+                background:url('../images/bullet2.png') no-repeat 0 50%;
+            }
+            &:first-child + li + li{
+                background:url('../images/bullet3.png') no-repeat 0 50%;
+            }
+        }
+    }
+    .small-text,
+    .small-bold-text{
+        font-size: 16px;
+    }
+    .small-text{
+        line-height: 26px;
+        margin-bottom: .75rem;
+    }
+    .small-bold-text{
+        font-weight: 600;
+        margin-bottom: .25rem;
+        line-height: 24px;
+    }
+	.links-buttons{
+        a{
+            font-size: 16px;
+            line-height: 24px;
+            text-decoration-line: underline;
+            color: $colorVerde;
+        }
+    }
+
+}
+
+section.products {
+
+    h3{
+        font-size: 32px;
+        line-height: 48px;    
+        max-width: 530px;
+        margin: 0 auto;
+    }
+    h4{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+}
+
+section.strategies {
+
+    h3{
+        font-size: 34px;
+        line-height: 51px;
+    }  
+    p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .link-strategies{
+        text-decoration: none;
+        color: $colorTer;
+        .card-custom{
+            border-radius: 8px;
+            border: none;
+            .card-body{
+                padding: 1.5rem;
+                .card-text, .card-title{
+                    margin-bottom: 12px;
+                }
+                .card-title{
+                    font-size: 24px;
+                    line-height: 35px;
+                    font-weight: 700;
+                }
+            }
+        }
+        &:hover{
+            .card-title{
+                color: $colorVerde;
+            }
+        }
+    }
+
+}
+
+section.testimonion {
+    .card-testimonion{
+        border-radius: 5px;
+        border: none;
+        .card-body{
+            padding: 1.65rem;
+            i {
+                color: $colorAmarillo;
+                font-size: 19px;
+            }
+            .card-text{
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+                color: $colorGris;
+                margin: 16px 0;
+            }
+            .card-profile{
+                .name, .profesion{
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    margin-bottom: 0;
+                }
+                .name{
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: $colorVerde;
+                }
+                .profesion{
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #252B42;
+                }
+            }
+        }
+    }
+}
+
+section.pride {
+    .row{
+        margin: 0 -34px;
+    }
+    .card-pride{
+        background: $colorSec;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        border: none;
+        margin: 0 20px;
+        .card-body{
+            color: $colorTer;
+            p{
+                margin-bottom: 0;
+            }
+            .card-title{
+                font-size: 24px;
+                line-height: 40px;
+                font-weight: 700;
+            }
+            .card-text{
+                font-size: 16px;
+                line-height: 40px;
+            }
+            .card-text-semi-bold{
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.2px;
+                margin-bottom: 16px;
+            }
+            .price-number{
+                font-weight: 700;
+                font-size: 76px;
+                line-height: 100px;
+                color: $colorVerde;
+            }
+            .currency{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30px;
+                color: $colorVerde;
+                text-align: left;
+            }
+            .unit{
+                font-size: 16px;
+                line-height: 19px;
+                color: #AFAFAF;
+                letter-spacing: 0.1px;
+            }
+        }
+    }
+    .second-pride{
+        background: $colorVerde;
+        .card-body{
+            color: $colorSec;
+            .price-number, .currency{
+                color: $colorSec;
+            }
+        }
+    }
+
+}
+
+section.grafica{
+    .block{
+        background: $colorVerde;
+        border-radius: 32px;
+        margin: 0 8%;
+        padding: 1.5rem;
+        h3{
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 151.4%;
+        }
+    }
+}
+
+.modal-custom{
+    .modal-content{
+        background: $colorVerde;
+        border-radius: 10px;
+        padding: 10px;
+        .close-new{
+            text-shadow: none;
+            opacity: 1;
+            color: white;
+            font-size: 28px;
+            font-weight: 300;
+            background: $colorVerde;
+            border-radius: 50%;
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            display: block;
+            width: 45px;
+            height: 45px;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

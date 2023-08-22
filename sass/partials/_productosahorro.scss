@@ -1,0 +1,466 @@
+.productosahorro-inversion {
+	background: #fff;
+    padding: 50px 0px;
+	.titulo-productosahorro{
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 50px;
+		h2{
+			color: #112C46;
+		    font-size: 30px;
+		    font-family: "Gelion Bold";
+		}
+	    span{
+		    color: #606060;
+		    font-family: "Gelion Light";
+		    font-size: 20px;
+		    line-height: 20px;
+	    }
+	}
+	.contenedor-tabs{
+		.botones-tabs{
+			width: 100%;
+			max-width: 1000px;
+			margin: auto;
+    		display: block;
+    		position: relative;
+    		z-index: 2;
+    		.tabs-btns{
+    			text-align: center;
+    			.tablinks{
+    				display: block;
+				    max-width: 290px;
+				    width: 100%;
+				    height: 80px;
+				    text-align: left;
+				    border: none;
+				    outline: none;
+				    cursor: pointer;
+				    transition: 0.3s;
+				    padding: 1px;
+				    background: #C9E3FC;
+				    border-radius: 10px;
+				    margin: auto;
+				    position: relative;
+				    span{
+				    	display: inline-block;
+    					vertical-align: middle;
+    					img{
+    						width: 100%;
+    						height: auto;
+    					}
+				    }
+				    p{
+				    	display: inline-block;
+					    vertical-align: middle;
+					    color: #112C46;
+					    font-family: "Gelion Bold";
+					    font-size: 18px;
+					    line-height: 18px;
+					    padding-left: 10px;
+					    span{
+					    	display: block;
+					    }
+				    }
+    			}
+    			.tablinks.active {
+				    background: #0082CA;
+				    p{
+				    	color: #fff;
+				    }
+				    &:after{
+				    	position: absolute;
+					    display: inline-block;
+					    content: " ";
+					    background: #0082CA;
+					    width: 15px;
+					    height: 15px;
+					    left: 50%;
+					    bottom: 0%;
+					    transition: 0.5s;
+					    -o-transform: translateY(50%) rotate(45deg);
+					    -ms-transform: translateY(50%) rotate(45deg);
+					    -moz-transform: translateY(50%) rotate(45deg);
+					    -webkit-transform: translateY(50%) rotate(45deg);
+					    transform: translateY(50%) rotate(45deg);
+				    }
+
+				}
+    		}
+		}
+		.contenido-tabs{
+			width: 100%;
+	    	max-width: 1200px;
+	    	margin: auto;
+	        padding: 10px;
+	        display: block;
+	        margin-top: -60px;
+    		position: relative;
+    		z-index: 1;
+    		.tabs-btns-mobile{ 
+    			display: none; 
+    		}
+	        .infotab{
+	        	padding: 110px 10% 60px;
+			    -webkit-box-sizing: border-box;
+			    box-sizing: border-box;
+			    background: #F2F8FF;
+			    border-radius: 10px;
+			    position: relative;
+			    .headtab{
+			    	.title-tabs{
+			    		text-align: center;
+						font-size: 25px;
+		    			line-height: 25px;
+					    font-family: "Gelion Bold";
+						color: #112C46;
+			    	}
+			    	.lista-info{
+			    		padding: 25px 10%;
+						font-size: 18px;
+		    			line-height: 18px;
+					    font-family: "Gelion Light";
+						color: #606060;
+						li{
+                            &:before {
+                              content: "\2022";
+                              color: #0082CA;
+                              display: inline-block; 
+                              width: 1em;
+                              margin-left: -1em;
+                            }
+						}
+			    	}
+			    }
+			    .panama{
+			    	margin: 30px auto 5px;
+			    	max-width: 750px;
+			    	.title-panama{
+			    		text-align: left;
+    					vertical-align: bottom;
+    					h4{
+    						color: #112C46;
+    						font-size: 20px;
+    					}
+			    	}
+			    	.img-panama{
+			    		text-align: right;
+    					vertical-align: middle;
+    					img{
+    						width: auto;
+    						max-height: 70px;
+    					}
+			    	}
+			    }
+			    .barbados{
+			    	margin: 75px auto 5px;
+			    	max-width: 750px;
+			    	hr{
+			    		margin: 1rem auto;
+					    border-top: 1px solid #85B6D1;
+					    border-bottom: 1px solid #f1f5fa;
+			    	}
+			    	.title-barbados{
+			    		text-align: left;
+    					vertical-align: bottom;
+    					h4{
+    						color: #112C46;
+    						font-size: 20px;
+    					}
+			    	}
+			    	.img-barbados{
+			    		text-align: right;
+    					vertical-align: middle;
+    					img{
+    						width: auto;
+    						max-height: 70px;
+    					}
+			    	}
+			    }
+			    .tns-inner {
+                    margin: 20px auto!important;
+                    .fondos-slider, .tesoreria-slider, .portafolio-slider, .bankBarbados-slider{
+                        display: -ms-flex;
+                        display: -webkit-flex;
+                        display: flex;
+                        .item{
+                            display: -ms-flex;
+                            display: -webkit-flex;
+                            display: flex;
+                            .info{
+                                display: flex;
+                                display: -ms-flex;
+                                display: -webkit-flex;
+                                -ms-flex-direction: column;
+                                -webkit-flex-direction: column;
+                                flex-direction: column;
+                                justify-content: center;
+                                background: #FFF;
+                                border-radius: 10px;
+                                padding: 20px 30px;
+                                padding-bottom: 52px;
+                                margin-left: 2px;
+                                margin-right: 12px;
+                                position: relative;
+                                width: 100%;
+                                .titulo-info{
+                                    position: absolute;
+                                    width: 85%;
+                                    top: 4%;
+                                    left: 50%;
+                                    transform: translate(-50%, 0%);
+                                    -webkit-transform: translate(-50%, 0%);
+                                    -ms-transform: translate(-50%, 0%);
+                                    p{
+                                        text-align: center;
+                                        color: #0082CA;
+                                        font-family: Gelion Bold;
+                                        font-size: 20px;  
+                                        line-height: 20px;
+                                        img{
+                                        	height: 38px;
+    										width: auto;
+                                        }
+                                    }
+                                    hr{
+                                        margin: 0.1rem auto;
+                                        border-top: 1px solid  #F1F5FA;
+                                        border-bottom: 1px solid #112C46;
+                                    }
+                                }
+                                .descripcion{
+                                    margin: 44px 0;
+                                    ul{
+                                        font-family: Gelion Thin;
+                                        color: #5D5D5D;
+                                        margin-top: 20px;
+                                        list-style: none;
+                                        li{
+                                            font-size: 16px;
+                                            line-height: 16px;
+                                            margin-bottom: 10px;
+                                            &:before {
+                                              content: "\2022";
+                                              color: #0082CA;
+                                              display: inline-block; 
+                                              width: 1em;
+                                              margin-left: -1em;
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+                                .link-asesor{
+                                    display: block;
+                                    background: #0082CA;
+                                    color: #fff;
+                                    cursor: pointer;
+                                    text-align: center;
+                                    width: 58%;
+                                    padding: 6px;
+                                    font-size: 16px;
+                                    line-height: 16px;
+                                    border-radius: 3px;
+                                    text-decoration: none;    
+                                    position: absolute;
+                                    bottom: 4%;
+                                    left: 50%;
+                                    transform: translate(-50%, 0%);
+                                    -webkit-transform: translate(-50%, 0%);
+                                    -ms-transform: translate(-50%, 0%);
+                                    &:hover {
+                                        background-color: #0082CA;
+                                        opacity: .7;
+                                        -o-transition: opacity 0.2s;
+                                        -ms-transition: opacity 0.2s;
+                                        -moz-transition: opacity 0.2s;
+                                        -webkit-transition: opacity 0.2s;
+                                        transition: opacity 0.2s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .tns-nav {
+                    float: right;
+                    button {
+                        border-radius: 0;
+                        border: 1px solid #0082CA;
+                        margin: 5px 4px;    
+                        width: 12px;
+                        height: 12px;
+                        background: #fff;
+                        transform: rotate(45deg);
+                        -webkit-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        border-radius: 2px;
+                    }
+                }
+                .tns-nav-active {
+                    background: #0082CA!important;
+                }
+                .tns-controls {
+                    float: left;
+                    button {
+                        &:nth-child(1) {
+                            background: transparent;
+                            width: 28px;
+                            height: 28px;
+                            margin-right: 10px;
+                            border: none;
+                            background-image: url(../images/flecha-iz.png);
+                            background-repeat: no-repeat, repeat;
+                            background-position: left;
+                            background-size: 25px 25px;
+                        }
+                        &:nth-child(2) {
+                            background: transparent;
+                            width: 28px;
+                            height: 28px;
+                            margin-left: 10px;
+                            border: none;
+                            background-image: url(../images/flecha-de.png);
+                            background-repeat: no-repeat, repeat;
+                            background-position: right;
+                            background-size: 25px 25px;
+                        }
+                    }
+                }
+	        }
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .productosahorro-inversion {
+        .botones-tabs{
+    		.tabs-btns{
+    			.tablinks{
+    				max-width: inherit;
+				    p{
+					    font-size: 15px !important;
+					    line-height: 15px !important;
+				    }
+    			}
+    		}
+		}
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .productosahorro-inversion {
+    	.titulo-productosahorro{
+   			margin-bottom: 90px;
+		}
+    	.botones-tabs{
+    		.tabs-btns{
+    			display: none;
+    		}
+		}
+        .contenedor-tabs{
+	        .contenido-tabs{
+	    		.tabs-btns-mobile{
+	    			padding-bottom: 0;
+	    			display: block;
+	    			.tablinks{
+					    display: block;
+					    width: 100%;
+					    height: 56px;
+					    text-align: left;
+					    border: none;
+					    outline: none;
+					    cursor: pointer;
+					    transition: 0.3s;
+					    padding: 1px;
+					    background: #C9E3FC;
+					    border-radius: 10px;
+					    margin: auto;
+					    position: relative;
+					    .imglinks{
+					    	display: inline-block;
+	    					vertical-align: middle;
+	    					width: 60px;
+	    					img{
+	    						width: 100%;
+	    						height: auto;
+	    					}
+					    }
+					    p{
+					    	display: inline-block;
+						    vertical-align: middle;
+						    color: #112C46;
+						    font-family: "Gelion Bold";
+						    font-size: 16px;
+						    line-height: 16px;
+						    padding-left: 10px;
+						    span{
+						    	display: block;
+						    }
+					    }
+					    &:after{
+					    	position: absolute;
+						    display: inline-block;
+						    content: " ";
+						    width: 12px;
+						    height: 12px;
+						    background: url(../images/flecha.png);
+						    background-size: contain;
+						    background-repeat: no-repeat;
+						    top: 50%;
+						    -o-transform: translateY(-50%) rotate(90deg);
+						    -ms-transform: translateY(-50%) rotate(90deg);
+						    -moz-transform: translateY(-50%) rotate(90deg);
+						    -webkit-transform: translateY(-50%) rotate(90deg);
+						    transform: translateY(-50%) rotate(90deg);
+						    right: 15px; 
+					    }
+	    			}
+	    			.tablinks.active {
+					    background: #0082CA;
+					    p{
+					    	color: #fff;
+					    }
+					    &:after{
+						    background: url(../images/flecha-blanco.png);
+						    background-size: contain;
+						    background-repeat: no-repeat;
+					    	-o-transform: translateY(-50%) rotate(0deg);
+						    -ms-transform: translateY(-50%) rotate(0deg);
+						    -moz-transform: translateY(-50%) rotate(0deg);
+						    -webkit-transform: translateY(-50%) rotate(0deg);
+						    transform: translateY(-50%) rotate(0deg);
+					    }
+
+					}
+	    		}
+	        	.infotab{
+	    			padding: 30px 5% 60px;
+	    			margin: auto 10px;
+	    			.headtab{
+				    	.title-tabs{
+							font-size: 20px;
+			    			line-height: 20px;
+				    	}
+				    }
+				    .panama{
+				    	.img-panama{
+	    					img{
+	    						max-height: 50px;
+	    					}
+				    	}
+				    }
+
+				    .barbados{
+				    	.img-barbados{
+	    					img{
+	    						max-height: 50px;
+	    					}
+				    	}
+				    }
+
+	        	} 
+	        }
+	    }
+    }
+}
